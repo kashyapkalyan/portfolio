@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="icon" href="sk.jpg">
+</head>
+<body>
+  <header>
+    <marquee behavior="scroll" direction="left">
+      <bg color="black"></bg>
+      <h1 class="marquee-heading">Contact Details</h1>
+    </marquee>
+  </header>
+  
+  <section class="contact-section">
+    <div class="contact-form">
+      <form>
+        <label for="fname"><h2>Your Name:</h2></label>
+        <input type="text" required id="fname" name="fname">
+        
+        <label for="contact"><h2>Your Contact Number:</h2></label>
+        <input type="tel" required id="contact" name="contact" maxlength="10">
+        
+        <label for="reason"><h2>Reason Why You Need to Contact Me:</h2></label>
+        <textarea id="reason" required></textarea>
+        
+        <button><a href="submit.html">Submit</a></button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

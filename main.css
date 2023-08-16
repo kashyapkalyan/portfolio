@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("main\ html.png");
+    background-size: cover;
+    color: #FAEDF0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+nav a {
+    color: #FAEDF0;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #F02A71;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.welcome-heading {
+    color: #F02A71;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.get-started-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F02A71;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.get-started-button:hover {
+    background-color: #D72323;
+}

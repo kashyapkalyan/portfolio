@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("education1.jpg");
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.marquee-heading {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.education-card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.education-card h2 {
+    color: #F02A71;
+}
+
+.education-card a {
+    color: #FAEDF0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.education-card a:hover {
+    color: #D72323;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #F02A71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
